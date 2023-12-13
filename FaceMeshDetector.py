@@ -52,7 +52,7 @@ class FaceMesh():
             INDEXES = self.mpFaceMesh.FACEMESH_LIPS
         elif face_part == 'LEFT EYE':
             INDEXES = self.mpFaceMesh.FACEMESH_LEFT_EYE
-        elif face_part =='RIGHT EYE':
+        elif face_part == 'RIGHT EYE':
             INDEXES = self.mpFaceMesh.FACEMESH_RIGHT_EYE
         else:
             return
